@@ -1,0 +1,51 @@
+#layout {
+      height: 408px;
+      width: 19%;
+      margin-left: 4%;
+      border: 1px solid  #d0d3d4 ;
+}
+
+nav {
+      height: 50%;
+      text-align-last: center;
+      width: 15%;
+      position: absolute;
+      padding-left: 10px;
+      padding-right: 10px;
+}
+
+a{
+      display: block;
+      text-decoration: none;
+      padding: 13px;
+      background:  #5E352A;
+      margin-top: 25px;
+      position: relative;
+      color: #fff;
+      font-size: 14px;
+      
+      border-radius: 50px 20px;
+}
+
+a:after{
+      position: absolute;
+      bottom: 10px;
+      left: 0px;
+      width: 90%;
+      height: 3px;
+      background-color: #BE3228;
+      content: "";
+      opacity: 0;
+      transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+      transform: translateY(20px);
+}
+
+a:hover:after{
+        opacity:1;
+        transform: translateY(15px);
+}
+
+.activado-submenu-servicio {
+      font-weight: bold;
+      font-size: 14px;
+}

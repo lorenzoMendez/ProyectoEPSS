@@ -1,0 +1,43 @@
+section {
+      width: 100%;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+}
+
+article {
+      margin-left: 26%;
+      margin-right: 10%;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: .5%;
+      height: 400px;
+      border: 1px solid  #d0d3d4 ;
+}
+
+#cfe {
+      width: 250px;
+}
+
+#imss {
+      width: 150px;
+}
+
+div #img1 {
+      padding-top: 65px;
+      float: left;
+      padding-left: 25%;
+}
+
+div #img2 {
+      padding-top: 15px;
+      float: left;
+}
+
+
+h4, hr {
+      color: #5E352A;
+}
+
+p, li {
+      line-height: 1.7em;
+}

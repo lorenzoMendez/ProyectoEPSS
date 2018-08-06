@@ -1,0 +1,23 @@
+<section>
+
+      <navLeft-servicio></navLeft-servicio>
+      
+      <div id = "content">
+            <article>
+                  <div id = "formulario-empresa">
+                        <form #formLogin = "ngForm" id = "formulario">
+                              <p>
+                                    <input type = "text" id = "empresa" name = "empresa"
+                                    placeholder = "Nombre de la institucion, ubicacion, área o giro">
+                                    <input type = "submit" value = "Buscar" id = "btn-buscar">
+                              </p>
+                              <br>
+                        </form>
+                  </div>
+                  <br>
+                  <br>
+                  <hr>
+                  {{ resultados }}
+            </article>  
+      </div>
+</section>

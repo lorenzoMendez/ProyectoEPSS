@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  padding: 0;
+}
+
+#header {
+      color: #5E352A;
+      width: 100%;
+      float: fixed;
+      height: 70px;
+}
+
+#header1 {
+      /*background: green;
+      */width: 5%;
+      float: left;
+}
+
+#header2{
+      text-align: center;
+      width: 95%;
+      padding-top: 3px;
+ /*     background: white;*/
+}
+
+nav {
+      text-align-last: center;
+      background: #5E352A;
+      width: 99%;
+      float: fixed;
+      position: absolute;
+}
+
+a {
+  float: left;
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  width: 13%;
+  position: relative;
+}
+
+ a:after{
+        position: absolute;
+        bottom: 10px;
+        left: 0px;
+        width: 100%;
+        height: 3px;
+        background-color: #BE3228;
+        content: "";
+        opacity: 0;
+        transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+        transform: translateY(20px);
+}
+
+a:hover:after{
+        opacity:1;
+        transform: translateY(15px);
+}
+
+.activado {
+      font-weight: bold;
+      font-size: 17px;
+/*      background: #BE3228; 
+*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

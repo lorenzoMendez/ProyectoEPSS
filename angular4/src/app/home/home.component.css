@@ -1,0 +1,29 @@
+section {
+      width: 100%;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+}
+
+section #content{
+      width: 100%;
+}
+
+article {
+      padding-left: 20%;
+      padding-right: 20%;
+}
+
+div #img1 {
+      padding-top: 10px;
+      float: left;
+      width: 450px;
+      padding-left: 43%;
+}
+
+h4, hr {
+      color: #5E352A;
+}
+
+p, li {
+      line-height: 1.7em;
+}

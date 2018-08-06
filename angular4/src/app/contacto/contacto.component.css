@@ -1,0 +1,39 @@
+section {
+      width: 100%;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+}
+
+section #content{
+      width: 100%;
+}
+
+article {
+      padding-left: 20%;
+      padding-right: 20%;
+}
+
+img {
+      width: 420px;
+      padding-left: 40%; 
+}
+
+#cfe {
+      width: 250px;
+}
+
+#imss {
+      width: 120px;
+}
+
+div #img1 {
+      padding-top: 30px;
+      float: left;
+      padding-left: 25%;
+}
+
+div #img2 {
+      padding-top: 15px;
+      float: left;
+      padding-left: 10%;
+}
